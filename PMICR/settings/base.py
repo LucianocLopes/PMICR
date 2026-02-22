@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     # 3td Apps
     # My apps
+    'addresses',
 ]
 
 MIDDLEWARE = [
