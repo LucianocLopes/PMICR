@@ -36,7 +36,6 @@ class City(models.Model):
         State,
         verbose_name=_("Estado"),
         on_delete=models.CASCADE,
-        related_name="cities",
     )
 
     class Meta:
@@ -79,7 +78,6 @@ class Address(models.Model):
         City,
         verbose_name=_("Cidade"),
         on_delete=models.CASCADE,
-        related_name="addresses",
     )
 
     class Meta:
